@@ -1,0 +1,23 @@
+{
+  "name": "berry",
+  "version": "1.0.0",
+  "description": "first electron app, test using git",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "testcmd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sappyduckie/berry.git"
+  },
+  "author": "sappyduckie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sappyduckie/berry/issues"
+  },
+  "homepage": "https://github.com/sappyduckie/berry#readme",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
+}
